@@ -14,7 +14,7 @@
 [hypervisor.qemu]
 path = "/opt/confidential-containers/bin/qemu-system-x86_64"
 kernel = "/opt/confidential-containers/share/kata-containers/vmlinux-efi-secret-v5.17-rc6-93-sev"
-image = "/home/acarter/SEV-bundle/kata-containers/tools/packaging/kata-deploy/local-build/build/rootfs-initrd/destdir/opt/kata/share/kata-containers/kata-containers-initrd.img"
+image = "/opt/confidential-containers/share/kata-containers/kata-containers-initrd.img"
 machine_type = "q35"
 
 # Enable confidential guest support.
